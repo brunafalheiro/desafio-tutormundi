@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <title>Avalie-nos</title>
+
+    <meta charset="UTF-8">
+    <meta name="author" content="Bruna Falheiro">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/javascript" href="script.js">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Londrina+Solid:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <main>
+        <section class="container">
+            <div class="divBook">
+                <img src="./img/livro.png" class="livro" alt="livro">
+            </div>
+
+            <div class="divTxt">
+                <h1 id="txt">Como foi a ajuda do tutor?</h1>
+            </div>
+
+            <div id="divForm">
+                <form id="formRate" action="/rating" method="get">
+                    <label class="starImg">
+                        <input type="radio" onclick="buttonFunction(this.id)" name='rate' id="0" value="1">
+                    </label>
+                
+                    <label class="starImg">
+                        <input type="radio" onclick="buttonFunction(this.id)" name='rate' id="1" value="2">
+                    </label>
+
+                    <label class="starImg">
+                        <input type="radio" onclick="buttonFunction(this.id)" name='rate' id="2" value="3">
+                    </label>
+
+                    <label class="starImg">
+                        <input type="radio" onclick="buttonFunction(this.id)" name='rate' id="3" value="4">
+                    </label>
+
+                    <label class="starImg">
+                        <input type="radio" onclick="buttonFunction(this.id)" name='rate' id="4" value="5">
+                    </label>
+                </form>
+            </div>
+    
+        </section>
+    </main>
+    
+    <footer>
+        <div>
+            <button id="pularBtn">PULAR</button>
+            <button id="confirmarBtn" form="formRate">CONFIRMAR</button>
+        </div>
+    </footer>
+</body>
+
+<script src="script.js"></script>
+
+</html>

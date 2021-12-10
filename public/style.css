@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 80vh;
+    width: 100vw;
+}
+
+.divBook img{
+    padding-left: 20px;
+}
+
+.divTxt{
+    max-width: 300px;
+}
+
+.divTxt h1{
+    font-family: 'Londrina Solid';
+    font-size: 42px;
+    line-height: 42px;
+    padding: 20px 0px;
+}
+
+.starImg{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    margin: 5px;
+    background-image: url('./img/estrela_vazia.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+[type=radio]{
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+footer div button{
+    margin: 20px;
+}
+
+#pularBtn{
+    font-size: 16px;
+    font-weight: bold;
+    color: #2cc6d0;
+}
+
+#confirmarBtn{
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #c8c8c8;
+    box-shadow: 2px 4px 20px #c8c8c8;
+    width: 140px;
+    height: 40px;
+    border-radius: 50px;
+}
+
+@media (max-width: 500px) {
+    .divBook img{
+        max-width: 100px;
+    }
+
+    .divTxt{
+        max-width: 200px;
+    }
+
+    .divTxt h1{
+        font-size: 32px;
+        line-height: 32px;
+    }
+
+    .starImg{
+        width: 28px;
+        height: 28px;
+    }
+}
