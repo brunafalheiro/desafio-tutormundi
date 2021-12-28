@@ -1,11 +1,8 @@
 let starImg = document.getElementsByClassName('starImg');
-let divForm = document.getElementById('divForm');
 let confirmarBtn = document.getElementById('confirmarBtn');
 
 //desabilita botão confirmar
 confirmarBtn.disabled = true;
-
-let rate = 0;
 
 function buttonFunction(clickedBtnId) {
     let btnId = parseInt(clickedBtnId);

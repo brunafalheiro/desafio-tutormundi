@@ -42,9 +42,7 @@
 }
 
 [type=radio]{
-    opacity: 0;
-    width: 0;
-    height: 0;
+    display: none;
 }
 
 footer div button{
@@ -55,6 +53,7 @@ footer div button{
     font-size: 16px;
     font-weight: bold;
     color: #2cc6d0;
+    background-color: #fff;
 }
 
 #confirmarBtn{
